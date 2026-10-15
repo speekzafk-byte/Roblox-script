@@ -1,6 +1,4 @@
-
-
-```local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
 
 local remoteFolder = ReplicatedStorage:WaitForChild("Remote"):WaitForChild("Stage")
 local stageFinishedRF = remoteFolder:WaitForChild("StageFinishedRF")
@@ -49,4 +47,4 @@ for i = 1, 15 do
             end
         end
     end)
-end```
+end
